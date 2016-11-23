@@ -1,7 +1,11 @@
 # My stuff
 Presentation1.slides.html
 reveal.js/
-#
+graphics/fivethirtyeight_demo.*
+graphics/scatter_demo.*
+graphics/xkcd1.*
+graphics/xkcd1.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
