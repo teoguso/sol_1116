@@ -11,3 +11,12 @@ Then type in bash
 jupyter-nbconvert --to slides Presentation1.ipynb --reveal-prefix=reveal.js
 ```
 to obtain the slides in HTML format.
+
+## Notebook-to-pdf
+
+To use nbconvert nice feature, just type
+```
+jupyter-nbconvert --to pdf cumulant-to-pdf.ipynb
+```
+this will produce a pdf-from-latex file from the notebook. 
+Enjoy it with your viewer of choice. 
