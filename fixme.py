@@ -8,6 +8,7 @@
 # A little snippet to fix @media print issue printing slides from IPython
 #-----------------------------------------------------------------------------
 
+from __future__ import print_function
 import io
 
 notebook = 'slides.ipynb'
@@ -23,4 +24,4 @@ with io.open(path, 'r') as in_file:
 with io.open(path, 'w') as out_file:
     out_file.writelines(data)
 
-print "You can now print your slides"
+print("You can now print your slides")
