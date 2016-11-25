@@ -11830,7 +11830,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Science,-Data,-Tools">Science, Data, Tools<a class="anchor-link" href="#Science,-Data,-Tools">&#182;</a></h1><p>or <em>'Tips and tricks for a possible everyday workflow'</em></p>
+<h1 id="Science,-Data,-Tools">Science, Data, Tools<a class="anchor-link" href="#Science,-Data,-Tools">&#182;</a></h1><p>or <em>'Tips and tricks for a your everyday workflow'</em></p>
 <h2 id="Matteo-Guzzo">Matteo Guzzo<a class="anchor-link" href="#Matteo-Guzzo">&#182;</a></h2>
 </div>
 </div>
@@ -11906,14 +11906,13 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="GW-vs-Cumulant">GW vs Cumulant<a class="anchor-link" href="#GW-vs-Cumulant">&#182;</a></h2><ul>
-<li>GW:
-\begin{equation}
-A(\omega) = \frac1\pi \frac{\mathrm{Im}\Sigma (\omega)} 
-{ [ \omega - \epsilon - \mathrm{Re}\Sigma (\omega) ]^2 + 
-[ \mathrm{Im}\Sigma (\omega) ]^2}
-\end{equation}</li>
+<li>GW:</li>
 </ul>
-
+\begin{equation}
+ A(\omega) = \frac1\pi \frac{\mathrm{Im}\Sigma (\omega)} 
+ { [ \omega - \epsilon - \mathrm{Re}\Sigma (\omega) ]^2 + 
+ [ \mathrm{Im}\Sigma (\omega) ]^2}
+\end{equation}
 </div>
 </div>
 </div><div class="fragment">
@@ -11923,12 +11922,11 @@ A(\omega) = \frac1\pi \frac{\mathrm{Im}\Sigma (\omega)}
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Cumulant (plasmon-pole):
-\begin{equation}
-A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega - \epsilon + n \omega_p)^2 + \Gamma^2 }
-\end{equation}</li>
+<li>Cumulant (plasmon-pole):</li>
 </ul>
-
+\begin{equation}
+ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega - \epsilon + n \omega_p)^2 + \Gamma^2 }
+\end{equation}
 </div>
 </div>
 </div></div></section><section>
@@ -11937,12 +11935,25 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Alternative:-full-numerical">Alternative: full numerical<a class="anchor-link" href="#Alternative:-full-numerical">&#182;</a></h1><p>With $ t = t_2 - t_1 $:
+<h2 id="Problems">Problems<a class="anchor-link" href="#Problems">&#182;</a></h2><p><br>
+\begin{equation}
+ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega - \epsilon + n \omega_p)^2 + \Gamma^2 }
+\end{equation}</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Alternative:-full-numerical">Alternative: full numerical<a class="anchor-link" href="#Alternative:-full-numerical">&#182;</a></h2><p>With $ t = t_2 - t_1 $:</p>
 \begin{equation}
  G^C (t) = G^0(t) e^{ i \int d\omega 
  \frac{W (\omega)} {\omega^2} \left( e^{i \omega t} -i \omega t - 1 \right) }
-\end{equation}</p>
-<p><a href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.085112">Kas <em>et al.</em>, Phys. Rev. B 90, 085112, 2014</a></p>
+\end{equation}<p><br>
+<a href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.085112">Kas <em>et al.</em>, Phys. Rev. B 90, 085112, 2014</a></p>
 
 </div>
 </div>
@@ -11963,7 +11974,7 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Let's-talk-about-tools-(My-actual-Outline)">Let's talk about tools (My <em>actual</em> Outline)<a class="anchor-link" href="#Let's-talk-about-tools-(My-actual-Outline)">&#182;</a></h1><h3 id="How-do-you-go-about-your-everyday-work?">How do you go about your everyday work?<a class="anchor-link" href="#How-do-you-go-about-your-everyday-work?">&#182;</a></h3><h3 id="What-do-you-use-for:">What do you use for:<a class="anchor-link" href="#What-do-you-use-for:">&#182;</a></h3>
+<h1 id="Let's-talk-about-tools-(My-actual-Outline)">Let's talk about tools (My <em>actual</em> Outline)<a class="anchor-link" href="#Let's-talk-about-tools-(My-actual-Outline)">&#182;</a></h1>
 </div>
 </div>
 </div><div class="fragment">
@@ -11972,8 +11983,17 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="How-do-you-go-about-your-everyday-work?">How do you go about your everyday work?<a class="anchor-link" href="#How-do-you-go-about-your-everyday-work?">&#182;</a></h3><h3 id="What-do-you-use-to:">What do you use to:<a class="anchor-link" href="#What-do-you-use-to:">&#182;</a></h3>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Code writing and maintenance</li>
+<li>Write and maintain code</li>
 </ul>
 
 </div>
@@ -11985,7 +12005,7 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Data review and analysis</li>
+<li>Review and analyse data</li>
 </ul>
 
 </div>
@@ -11997,7 +12017,7 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Data and results presentation</li>
+<li>Present data and results</li>
 </ul>
 
 </div>
@@ -12057,8 +12077,9 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Warning">Warning<a class="anchor-link" href="#Warning">&#182;</a></h1><p><strong>Heavy dosage of git and python!</strong></p>
-
+<p><center></p>
+<h1 id="Take-a-deep-breath">Take a deep breath<a class="anchor-link" href="#Take-a-deep-breath">&#182;</a></h1><p>(Pause)</p>
+<center/>
 </div>
 </div>
 </div></section></section><section><section>
@@ -12217,62 +12238,6 @@ A(\omega) = \frac1\pi \sum_{n=0}^{\infty} \frac{a^n}{n!} \frac{\Gamma}{ (\omega 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Jupyter-notebooks">Jupyter notebooks<a class="anchor-link" href="#Jupyter-notebooks">&#182;</a></h1><center>
-<img src=http://jupyter.org/assets/main-logo.svg width=200>
-</center><p>www.jupyter.org</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Jupyter-what?">Jupyter what?<a class="anchor-link" href="#Jupyter-what?">&#182;</a></h1><ul>
-<li><p>Interactive scientific computing environment</p>
-<ul>
-<li>Data analysis and visualization</li>
-<li>Interactive reports</li>
-<li>Parallel computing!</li>
-</ul>
-</li>
-<li><p>Originated from the IPython project in 2014</p>
-</li>
-</ul>
-<ul>
-<li>Now supports a number of languages (Python, BASH, ...)</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Jupyter-notebooks">Jupyter notebooks<a class="anchor-link" href="#Jupyter-notebooks">&#182;</a></h1><ul>
-<li><p>Web-based documents that combine</p>
-<ul>
-<li><p>Executable code</p>
-</li>
-<li><p>Rich-text elements (<a href="https://en.wikipedia.org/wiki/Markdown"><strong>Markdown</strong></a> + HTML)</p>
-</li>
-</ul>
-</li>
-<li><p>They are <strong>text-based</strong> (Git anyone?)</p>
-</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Python-+-matplotlib">Python + matplotlib<a class="anchor-link" href="#Python-+-matplotlib">&#182;</a></h1>
 </div>
 </div>
@@ -12348,19 +12313,63 @@ See <a href="https://www.xkcd.com">https://www.xkcd.com</a></p>
 
 </div>
 </div>
-</div><aside class="notes">
-
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Also remember to convert to pdf!</p>
+<h1 id="Jupyter-notebooks">Jupyter notebooks<a class="anchor-link" href="#Jupyter-notebooks">&#182;</a></h1><center>
+<img src=http://jupyter.org/assets/main-logo.svg width=200>
+</center><p>www.jupyter.org</p>
 
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
-</aside></section></section><section><section>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Jupyter-what?">Jupyter what?<a class="anchor-link" href="#Jupyter-what?">&#182;</a></h1><ul>
+<li><p>Interactive scientific computing environment</p>
+<ul>
+<li>Data analysis and visualization</li>
+<li>Interactive reports</li>
+<li>Parallel computing!</li>
+</ul>
+</li>
+<li><p>Originated from the IPython project in 2014</p>
+</li>
+</ul>
+<ul>
+<li>Now supports a number of languages (Python, BASH, ...)</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Jupyter-notebooks">Jupyter notebooks<a class="anchor-link" href="#Jupyter-notebooks">&#182;</a></h1><ul>
+<li><p>Web-based documents that combine</p>
+<ul>
+<li><p>Executable code</p>
+</li>
+<li><p>Rich-text elements (<a href="https://en.wikipedia.org/wiki/Markdown"><strong>Markdown</strong></a> + HTML)</p>
+</li>
+</ul>
+</li>
+<li><p>They are <strong>text-based</strong> (Git anyone?)</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12406,7 +12415,19 @@ See <a href="https://www.xkcd.com">https://www.xkcd.com</a></p>
 <h1 id="TO-DEMO-OR-NOT-TO-DEMO?">TO DEMO OR NOT TO DEMO?<a class="anchor-link" href="#TO-DEMO-OR-NOT-TO-DEMO?">&#182;</a></h1>
 </div>
 </div>
-</div></section></section><section><section>
+</div><aside class="notes">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Also remember to convert to pdf!</p>
+
+</div>
+</div>
+</div>
+</aside></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
