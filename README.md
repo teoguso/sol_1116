@@ -15,15 +15,17 @@ to obtain the slides in HTML format.
 ## Notebook-to-pdf
 
 To use nbconvert nice feature, just type
-```
+`
 jupyter-nbconvert --to pdf cumulant-to-pdf.ipynb
-```
+`
 this will produce a pdf-from-latex file from the notebook. 
 Enjoy it with your viewer of choice. 
 
 ## Slides-to-pdf
 
-This is a little hacky, as explained in [this blogpost](http://www.damian.oquanta.info/posts/a-little-hack-to-get-a-pdf-from-your-ipython-slides.html) by @damianavila. 
+This is a little hacky, as explained in 
+[this blogpost](http://www.damian.oquanta.info/posts/a-little-hack-to-get-a-pdf-from-your-ipython-slides.html)
+by @damianavila. 
 I already included the two necessary files in the source. 
 As also specified in the post, it seems to work only with mozilla firefox/iceweasel 
 (do not trust the webpage you'll see, check the pdf output). 
