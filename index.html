@@ -20,11 +20,43 @@
 
     <section class="main-content">
       <h1>
-<a id="test-page" class="anchor" href="#test-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test page</h1>
+<a id="jupyter-notebook--revealjs--beautiful-slides" class="anchor" href="#jupyter-notebook--revealjs--beautiful-slides" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jupyter Notebook + Reveal.js = Beautiful Slides</h1>
 
-<p>This is some test text.</p>
+<p>A first attempt to produce a decent-looking presentation
+using jupyter notebooks and reveal.js.</p>
 
-<p>Can one look at [[this page?|index.html]]</p>
+<p>To obtain the slides one requires to have the 'reveal.js'
+directory 
+in the same directory as the notebook.
+Then type in bash</p>
+
+<pre><code>jupyter-nbconvert --to slides Presentation1.ipynb --reveal-prefix=reveal.js
+</code></pre>
+
+<p>to obtain the slides in HTML format.
+A static copy of the reveal.js repo is included here. 
+The original repo is at <a href="https://github.com/hakimel/reveal.js/">https://github.com/hakimel/reveal.js/</a></p>
+
+<h2>
+<a id="notebook-to-pdf" class="anchor" href="#notebook-to-pdf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notebook-to-pdf</h2>
+
+<p>To use nbconvert nice feature, just type
+<code>
+jupyter-nbconvert --to pdf cumulant-to-pdf.ipynb
+</code>
+this will produce a pdf-from-latex file from the notebook. 
+Enjoy it with your viewer of choice. </p>
+
+<h2>
+<a id="slides-to-pdf" class="anchor" href="#slides-to-pdf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Slides-to-pdf</h2>
+
+<p>This is a little hacky, as explained in 
+<a href="http://www.damian.oquanta.info/posts/a-little-hack-to-get-a-pdf-from-your-ipython-slides.html">this blogpost</a>
+by <a href="https://github.com/damianavila" class="user-mention">@damianavila</a>. 
+I already included the two necessary files in the source. 
+As also specified in the post, it seems to work only with mozilla firefox/iceweasel 
+(do not trust the webpage you'll see, check the pdf output). 
+Also, I have issues in rendering all the images (which means most of them do not render). Oh well.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/teoguso/sol_1116">Sol 1116</a> is maintained by <a href="https://github.com/teoguso">teoguso</a>.</span>
