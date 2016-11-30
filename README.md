@@ -11,6 +11,8 @@ Then type in bash
 jupyter-nbconvert --to slides Presentation1.ipynb --reveal-prefix=reveal.js
 ```
 to obtain the slides in HTML format.
+A static copy of the reveal.js repo is included here. 
+The original repo is at https://github.com/hakimel/reveal.js/
 
 ## Notebook-to-pdf
 
