@@ -37,19 +37,34 @@
 <p>A first attempt to produce a decent-looking presentation
 using jupyter notebooks and reveal.js.</p>
 
+<p>For all below to work, you generally need to be in the main sol_1116
+folder after you do</p>
+
+<pre><code>git clone git@github.com:teoguso/sol_1116.git
+</code></pre>
+
+<p>or something like that. </p>
+
+<h2>
+<a id="live-presentation" class="anchor" href="#live-presentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Live presentation</h2>
+
+<p>You need to type</p>
+
 <h2>
 <a id="notebook-to-revealjs-slides" class="anchor" href="#notebook-to-revealjs-slides" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notebook to <em>reveal.js</em> slides</h2>
 
 <p>To obtain the slides one requires to have the 'reveal.js'
-directory 
-in the same directory as the notebook.
+directory in the same directory as the notebook.
 Then type in bash</p>
 
-<pre><code>jupyter-nbconvert --to slides Presentation1.ipynb --reveal-prefix=reveal.js
+<pre><code>jupyter-nbconvert --to slides slides.ipynb --reveal-prefix=reveal.js
 </code></pre>
 
-<p>to obtain the slides in HTML format.
-A static copy of the reveal.js repo is included here. 
+<p>and view the slides in HTML format, with something like</p>
+
+<div class="highlight highlight-source-shell"><pre>chrome slides.slides.html</pre></div>
+
+<p>A static copy of the reveal.js repo is included here. 
 The original repo is at <a href="https://github.com/hakimel/reveal.js/">https://github.com/hakimel/reveal.js/</a></p>
 
 <h2>
@@ -59,9 +74,9 @@ The original repo is at <a href="https://github.com/hakimel/reveal.js/">https://
 You can find it <a href="slides.html">here</a>.</p>
 
 <h2>
-<a id="slides-to-pdf" class="anchor" href="#slides-to-pdf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Slides-to-pdf</h2>
+<a id="notebook-to-pdf" class="anchor" href="#notebook-to-pdf" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notebook-to-pdf</h2>
 
-<p>To use nbconvert nice feature, just type
+<p>To use this nice nbconvert feature, just type
 <code>
 jupyter-nbconvert --to pdf cumulant-to-pdf.ipynb
 </code>
